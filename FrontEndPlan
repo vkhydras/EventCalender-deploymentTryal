@@ -1,0 +1,31 @@
+/frontend
+|-- /public
+|   |-- index.html       // HTML template
+|   |-- ...
+|
+|-- /src
+|   |-- /components
+|   |   |-- /auth
+|   |   |   |-- Login.js          // Login component
+|   |   |   |-- Register.js       // Registration component
+|   |   |
+|   |   |-- /calendar
+|   |   |   |-- Calendar.js       // Calendar component
+|   |   |   |-- EventDetails.js   // Event details component
+|   |   |   |-- EventForm.js      // Event creation and editing form
+|   |   |
+|   |   |-- /common
+|   |   |   |-- Header.js         // Common header component
+|   |   |   |-- PrivateRoute.js   // Private route component for authenticated routes
+|   |   |
+|   |-- /services
+|   |   |-- api.js          // Axios instance for API calls to the backend
+|   |   |-- auth.js         // Functions for handling authentication (login, logout, etc.)
+|   |   |-- event.js        // Functions for event-related API calls
+|   |
+|   |-- App.js             // Main application component
+|   |-- index.js           // Entry point for React app
+|   |-- ...
+|
+|-- package.json          // Frontend dependencies and scripts
+|-- ...

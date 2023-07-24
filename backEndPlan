@@ -1,0 +1,22 @@
+/backend
+|-- /config
+|   |-- db.js            // Database configuration (MongoDB URI)
+|   |-- jwt.js           // JWT secret and options
+|
+|-- /controllers
+|   |-- eventController.js   // Controllers for handling event-related logic
+|   |-- authController.js    // Controllers for handling authentication logic
+|
+|-- /middlewares
+|   |-- authMiddleware.js   // Middleware for JWT authentication
+|
+|-- /models
+|   |-- eventModel.js     // Mongoose schema and model for events
+|   |-- userModel.js      // Mongoose schema and model for users (if needed)
+|
+|-- /routes
+|   |-- eventRoutes.js    // API routes for events
+|   |-- authRoutes.js     // API routes for authentication
+|
+|-- app.js               // Express.js application setup
+|-- server.js            // Entry point for running the server
